@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        div{
+            border: 1px solid red;
+        }
+
+        img{
+            margin: 10px;
+        }
+
+        .image2 {
+            
+            /* Use of Relative:
+            
+            position: relative;
+            top: 100px;
+            left: 200px;
+
+            /*  Abosulte Use : 1 image occupies the space of other image 
+
+            position: absolute;
+            top: 10px;
+            */
+
+        }
+
+        .image3{
+            position: sticky;
+            top: 500px;
+
+        }
+
+        .image4{
+            position: fixed;
+        }
+        .container{
+            position: relative;
+            height: 5000px;
+        }
+
+        .Clone{
+            background-color: aquamarine;
+            height: 5000px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class = "container">
+
+        <img src="Pic_1.jpg"
+        alt = "poster 1"
+        width = "300px"
+        height = "300px"
+        class = "image1"
+        />
+        <img src="Pic_2.jpg"
+        alt = "poster 2"
+        width = "300px"
+        height = "300px"
+        class = "image2" />
+
+        <img src="Pic_3.jpg"
+        alt = "poster 3"
+        width = "300px"
+        height = "300px"
+        class = "image3" />
+
+        <img src="Pic_4.jpg"
+        alt = "poster 4"
+        width = "300px"
+        height = "300px"
+        class = "image4" />
+    
+
+    </div>
+
+    <div class = "Clone">
+
+    </div>
+</body>
+</html>
